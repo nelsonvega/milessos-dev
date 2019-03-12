@@ -1,0 +1,246 @@
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+
+.cf { *zoom: 1;
+}
+
+
+
+/*---------Authar Style----------*/
+
+/* .mobimenu.inrwrpr ul {
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+  position: absolute;
+  z-index: 99999;
+  top:100px;
+  width: 270px;
+  } */
+  
+.mobimenu.inrwrpr ul li {
+  padding: 0;
+  margin:0px;
+  width: 100%;
+  }
+  
+.mobimenu.inrwrpr ul li:hover {
+  border-top: medium none;
+  } 
+
+.mobimenu.inrwrpr ul li{
+  border-top: medium none;
+  }   
+
+.mobimenu.inrwrpr ul li a {
+  border-top: medium none transparent;
+  color: #767676;
+  font-size: 13px;
+  padding: 10px 14px;
+  text-align: left;
+  width: 100%;
+}
+/* 
+.mobimenu.inrwrpr ul li:hover {
+  background:#E61C28;
+  border-top: medium none transparent;
+  color: #fff;
+  }   */
+  
+.mobimenu.inrwrpr > li:hover ul {
+  display: block;
+  }
+  
+.mobimenu.inrwrpr ul li ul {
+  display: none !important;
+  left: 270px;
+  position: absolute;
+  top:0px;
+  width: 270px;
+  }
+
+.mobimenu.inrwrpr ul li:hover ul {
+  display: block !important;
+  }  
+
+
+.smobitrigger, .mnuclose { display: none; }
+
+.logo { float: left; }
+
+.navigation { float: left; }
+
+.contact_btn {
+  background: #cd0301 none repeat scroll 0 0;
+  color: #fff !important;
+  margin: 32px 0;
+  transition: all 0.5s ease-in-out 0s;
+  padding: 6px 15px 6px !important;
+  }
+  
+.contact_btn:hover {
+ background: #000 none repeat scroll 0 0;
+ }  
+
+.navigation nav ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+}
+
+.navigation nav ul li {
+    display: inline-block;
+    float: left;
+	border-top: 4px solid transparent;
+	position:relative;
+    margin: 0 23px;
+    padding:0 0px;	
+ }
+ 
+.navigation nav li:nth-child(2) {
+    margin-left: 0;
+    }
+	
+.smobitrigger.ion-navicon-round.inrwrpr {
+  margin-right: 13px;
+  position: absolute;
+  right: 98px;
+  top: 54px;
+}
+	
+.navigation nav li:last-child {
+  margin-right: 0;
+  border-top:none;
+  }
+
+.navigation nav li:hover:last-child {
+  border-top: medium none;
+  }  
+
+.navigation nav ul li a {
+    color: #000;
+    font-size: 15px;
+	float: left;
+    padding: 40px 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navigation nav ul li:hover {
+  border-top: 4px solid #cd0301;
+    color: #cd0301;
+}
+ @media all and (max-width : 1920px) {
+ 
+ .navigation {
+  float: left;
+  position: absolute;
+  right: 15px;
+  top: 25px;
+  }
+  
+
+
+.smobitrigger, .mnuclose { display: inline-block; }
+
+.smobitrigger {
+  color: #fff;
+  font-size: 30px;
+  line-height: 12px;
+  padding: 5px 10px;
+}
+
+.mnuclose {
+  font-size: 20px;
+  padding: 10px 20px;
+  width: 100%;
+  color: #fff;
+}
+
+.smobitrigger span, .mnuclose span {
+  font: 0/0 a;
+  text-shadow: none;
+  color: transparent;
+}
+
+.navigation nav ul {
+  padding-bottom:0px;
+  overflow-y: auto;
+}
+
+.navigation nav ul li, .navigation nav ul li a { width: 100%; }
+
+.navigation nav ul li a {
+  font-size: 13px;
+  padding: 8px;
+  color: #fff;
+  }
+  
+.mnuclose.ion-close-round {
+  margin-bottom: 13px;
+  }  
+
+.navigation nav ul li a:hover {background: rgba(0, 0, 0, 0.18); color:#fff;}
+
+.mobimenu {
+  height: 100%;
+  list-style: outside none none;
+  margin: 0;
+  /* overflow-y: auto; */
+  position: fixed;
+  right: -250px;
+  top: 0;
+  width: 210px;
+}
+
+.mobimenu li:last-child{
+	margin-bottom:30px;
+}
+
+.mnuopn { right: 0px !important;overflow-x: hidden;overflow-y: scroll; }
+
+.ovrActv {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.79);
+  width: 100%;
+  height: 100%;
+  z-index: 9998;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.navigation nav ul li{
+  padding:0 0px;
+  margin:0 0px;
+  }
+  
+.contact_btn {
+  background: #000 none repeat scroll 0 0;
+  border-top: medium none !important;
+  color: #fff !important;
+  font-size: 12px !important;
+  margin: 10px 0;
+  padding: 8px !important;
+  transition: all 0.5s ease-in-out 0s;
+  }
+  
+.mobimenu.inrwrpr ul {
+width:100%;
+position:static;
+}
+
+.mobimenu.inrwrpr ul li ul{
+position:static;
+background:#000;
+}
+
+.mobimenu.inrwrpr ul li a{
+font-size:12px;
+padding:10px 14px;
+}
+}
